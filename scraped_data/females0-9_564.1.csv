@@ -23,8 +23,8 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 535.5 ,Unspecified gastritis & gastroduodenitis,Diseases of the digestive system,23274,719,2.76,5.54667e-116,2.56,2.98
 315.8 ,Other specified delays in development,Mental disorders,2545,78,2.68,0.00000000000008394358,2.11,3.36
 599.9 ,Unspecified disorder of urethra...,Diseases of the genitourinary...,7443,224,2.64,2.257622e-35,2.3,3.02
-530.8 ,Other specified disorders of esophagus,Diseases of the digestive system,3528,106,2.63,1.48207e-17,2.15,3.19
 787.0 ,Nausea and vomiting,"Comorbidities, signs, and ill-defined...",145469,3862,2.63,< 0.0001,2.54,2.72
+530.8 ,Other specified disorders of esophagus,Diseases of the digestive system,3528,106,2.63,1.48207e-17,2.15,3.19
 780.7 ,Malaise and fatigue,"Comorbidities, signs, and ill-defined...",5004,149,2.61,1.299385e-23,2.2,3.07
 491.9 ,Unspecified chronic bronchitis,Diseases of the respiratory system,9441,279,2.6,2.830459e-42,2.3,2.93
 555.2 ,Regional enteritis of small intestine...,Diseases of the digestive system,11467,329,2.52,5.834394e-47,2.25,2.82
@@ -51,9 +51,9 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 692.5 ,Contact dermatitis and other eczema...,Diseases of the skin and subcutaneous...,7329,179,2.13,5.224961e-19,1.82,2.47
 785.3 ,Other abnormal heart sounds,"Comorbidities, signs, and ill-defined...",2664,65,2.12,0.000000068296347,1.63,2.71
 560.1 ,Paralytic ileus,Diseases of the digestive system,6435,156,2.11,1.564055e-16,1.79,2.48
-127.9 ,"Intestinal helminthiasis, unspecified",Infectious and parasitic diseases,2367,57,2.09,0.00000070238711,1.58,2.72
 779.9 ,Unspecified condition originating...,Certain conditions originating...,2033,49,2.09,0.0000039080584,1.54,2.78
 789 ,Other symptoms involving abdomen...,"Comorbidities, signs, and ill-defined...",4453,107,2.09,0.00000000001606204,1.71,2.53
+127.9 ,"Intestinal helminthiasis, unspecified",Infectious and parasitic diseases,2367,57,2.09,0.00000070238711,1.58,2.72
 464.21 ,Acute laryngotracheitis with obstruction,Diseases of the respiratory system,6853,163,2.07,1.9315e-16,1.76,2.42
 343.9 ,"Infantile cerebral palsy, unspecified",Diseases of the nervous system,3756,89,2.06,0.000000001760542,1.65,2.54
 381.0 ,Acute nonsuppurative otitis media,Diseases of the nervous system,13180,309,2.05,8.759482e-29,1.82,2.29
@@ -67,11 +67,11 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 680.9 ,Carbuncle and furuncle of unspecified...,Diseases of the skin and subcutaneous...,42755,948,1.96,1.847827e-74,1.84,2.1
 701.4 ,Keloid scar,Diseases of the skin and subcutaneous...,3181,72,1.96,0.00000033082833,1.53,2.48
 074.8 ,Other specified diseases due to...,Infectious and parasitic diseases,2133,48,1.95,0.0000286941,1.43,2.6
-564.9 ,Unspecified functional disorder...,Diseases of the digestive system,184627,3757,1.94,3.28928e-249,1.87,2.01
 787.7 ,Abnormal feces,"Comorbidities, signs, and ill-defined...",6951,155,1.94,0.0000000000001926499,1.64,2.27
+564.9 ,Unspecified functional disorder...,Diseases of the digestive system,184627,3757,1.94,3.28928e-249,1.87,2.01
 873.50 ,"Open wound of face, unspecified...",Injury and poisoning,1880,42,1.93,0.0000967597,1.39,2.63
-595.9 ,"Cystitis, unspecified",Diseases of the genitourinary...,10609,234,1.92,4.527388e-19,1.68,2.19
 783.9 ,"Other symptoms concerning nutrition,...","Comorbidities, signs, and ill-defined...",1944,43,1.92,0.0001170297,1.38,2.59
+595.9 ,"Cystitis, unspecified",Diseases of the genitourinary...,10609,234,1.92,4.527388e-19,1.68,2.19
 780.9 ,Other general symptoms,"Comorbidities, signs, and ill-defined...",26121,570,1.91,5.244246e-43,1.76,2.08
 429.2 ,"Cardiovascular disease, unspecified",Diseases of the circulatory system,2799,61,1.89,0.0000084102283,1.44,2.43
 111.9 ,"Dermatomycosis, unspecified",Infectious and parasitic diseases,3548,77,1.88,0.0000006272464,1.48,2.36
@@ -90,86 +90,88 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 845.09 ,Other sprains and strains of ankle,Injury and poisoning,3318,68,1.77,0.0000156476,1.37,2.25
 464.20 ,Acute laryngotracheitis without...,Diseases of the respiratory system,125493,2432,1.77,1.80976e-130,1.69,1.84
 112.9 ,Candidiasis of unspecified site,Infectious and parasitic diseases,14302,289,1.76,4.779944e-18,1.56,1.97
+787.3 ,"Flatulence, eructation, and gas...","Comorbidities, signs, and ill-defined...",100374,1945,1.75,1.04159e-102,1.66,1.83
 009 ,Ill-defined intestinal infections,Infectious and parasitic diseases,19366,390,1.75,1.216558e-23,1.58,1.94
 276 ,"Disorder of fluid, electrolyte,...","Endocrine, nutritional and metabolic...",2029,41,1.75,0.0012080596,1.25,2.38
-787.3 ,"Flatulence, eructation, and gas...","Comorbidities, signs, and ill-defined...",100374,1945,1.75,1.04159e-102,1.66,1.83
-117.9 ,Other and unspecified mycoses,Infectious and parasitic diseases,4924,99,1.74,0.00000051731309,1.41,2.12
 370.20 ,"Superficial keratitis, unspecified",Diseases of the nervous system,4781,96,1.74,0.00000073255845,1.4,2.13
 765.1 ,Disorders relating to other preterm...,Certain conditions originating...,2540,51,1.74,0.0002835954,1.29,2.29
+117.9 ,Other and unspecified mycoses,Infectious and parasitic diseases,4924,99,1.74,0.00000051731309,1.41,2.12
 491.0 ,Simple chronic bronchitis,Diseases of the respiratory system,2300,46,1.73,0.0006152809,1.26,2.31
 719.40 ,"Pain in joint, site unspecified",Diseases of the musculoskeletal...,3080,61,1.71,0.0001040366,1.31,2.21
 783.0 ,Anorexia,"Comorbidities, signs, and ill-defined...",14643,289,1.71,8.935864e-17,1.52,1.93
+781.2 ,Abnormality of gait,"Comorbidities, signs, and ill-defined...",4017,79,1.7,0.0000173812,1.34,2.12
 873.1 ,"Open wound of scalp, complicated",Injury and poisoning,2037,40,1.7,0.0018496201,1.21,2.32
 693.1 ,Dermatitis due to food taken internally,Diseases of the skin and subcutaneous...,2088,41,1.7,0.0020334153,1.21,2.31
-781.2 ,Abnormality of gait,"Comorbidities, signs, and ill-defined...",4017,79,1.7,0.0000173812,1.34,2.12
 845.00 ,"Sprain of ankle, unspecified site",Injury and poisoning,5004,98,1.69,0.0000017880796,1.37,2.07
 595.0 ,Acute cystitis,Diseases of the genitourinary...,16761,327,1.69,3.892418e-18,1.51,1.89
+729.1 ,"Myalgia and myositis, unspecified",Diseases of the musculoskeletal...,13099,254,1.68,0.00000000000004206799,1.48,1.91
 850.9 ,"Concussion, unspecified",Injury and poisoning,11007,214,1.68,0.00000000000390274,1.46,1.93
 593.7 ,Vesicoureteral reflux,Diseases of the genitourinary...,2731,53,1.68,0.0004757579,1.25,2.2
 074 ,Specific Coxsackie virus diseases,Infectious and parasitic diseases,4881,95,1.68,0.000003569,1.36,2.06
-729.1 ,"Myalgia and myositis, unspecified",Diseases of the musculoskeletal...,13099,254,1.68,0.00000000000004206799,1.48,1.91
 698 ,Pruritus and related conditions,Diseases of the skin and subcutaneous...,3870,75,1.67,0.0000463399,1.31,2.11
 924.10 ,Contusion of lower leg,Injury and poisoning,1877,36,1.66,0.0048636046,1.16,2.3
 558.1 ,Gastroenteritis and colitis due...,Diseases of the digestive system,1876,36,1.66,0.0048466141,1.16,2.3
 464 ,Acute laryngitis and tracheitis,Diseases of the respiratory system,79650,1476,1.65,2.671788e-65,1.56,1.74
 008.5 ,"Bacterial enteritis, unspecified",Infectious and parasitic diseases,10471,200,1.65,0.00000000007315352,1.43,1.9
+784.0 ,Headache,"Comorbidities, signs, and ill-defined...",70222,1293,1.63,1.442325e-55,1.54,1.72
 799.8 ,Other ill-defined conditions,"Comorbidities, signs, and ill-defined...",4992,94,1.63,0.0000123012,1.31,2
 079 ,Viral and chlamydial infection...,Infectious and parasitic diseases,3972,75,1.63,0.0000831975,1.28,2.05
-784.0 ,Headache,"Comorbidities, signs, and ill-defined...",70222,1293,1.63,1.442325e-55,1.54,1.72
 564.5 ,Functional diarrhea,Diseases of the digestive system,30955,576,1.62,4.176118e-26,1.49,1.76
 009.2 ,Infectious diarrhea,Infectious and parasitic diseases,78015,1424,1.62,2.881936e-59,1.53,1.71
 692.8 ,"Contact dermatitis and other eczema,...",Diseases of the skin and subcutaneous...,5123,96,1.62,0.0000153968,1.31,1.98
+724.2 ,Lumbago,Diseases of the musculoskeletal...,6692,124,1.6,0.0000014813769,1.33,1.91
 473.8 ,Other chronic sinusitis,Diseases of the respiratory system,4154,77,1.6,0.0001200652,1.26,2.01
 924.20 ,Contusion of foot,Injury and poisoning,4274,79,1.6,0.0001107965,1.26,1.99
 009.0 ,"Infectious colitis, enteritis,...",Infectious and parasitic diseases,256596,4366,1.6,6.40004e-148,1.54,1.65
-724.2 ,Lumbago,Diseases of the musculoskeletal...,6692,124,1.6,0.0000014813769,1.33,1.91
+784.1 ,Throat pain,"Comorbidities, signs, and ill-defined...",17673,324,1.59,0.00000000000001751649,1.42,1.78
 924.11 ,Contusion of knee,Injury and poisoning,4508,83,1.59,0.0000931183,1.26,1.98
 038 ,Septicemia,Infectious and parasitic diseases,2283,42,1.59,0.0059921207,1.14,2.15
 536.8 ,Dyspepsia and other specified...,Diseases of the digestive system,135575,2384,1.59,5.802841e-87,1.52,1.66
-784.1 ,Throat pain,"Comorbidities, signs, and ill-defined...",17673,324,1.59,0.00000000000001751649,1.42,1.78
+734 ,Flat foot,Diseases of the musculoskeletal...,3870,71,1.58,0.0003050358,1.23,2
 920 ,"Contusion of face, scalp, and...",Injury and poisoning,25927,472,1.58,7.058667e-20,1.44,1.74
 686.9 ,Unspecified local infection of...,Diseases of the skin and subcutaneous...,145577,2538,1.58,1.709053e-89,1.51,1.64
-734 ,Flat foot,Diseases of the musculoskeletal...,3870,71,1.58,0.0003050358,1.23,2
+349.9 ,Unspecified disorders of nervous...,Diseases of the nervous system,8691,158,1.57,0.0000001700008,1.33,1.84
+729.4 ,"Fasciitis, unspecified",Diseases of the musculoskeletal...,5448,99,1.57,0.0000369451,1.27,1.91
+780.4 ,Dizziness and giddiness,"Comorbidities, signs, and ill-defined...",21710,393,1.57,1.833583e-16,1.42,1.74
 382 ,Suppurative and unspecified otitis...,Diseases of the nervous system,7418,135,1.57,0.0000012795261,1.32,1.86
 388.70 ,"Otalgia, unspecified",Diseases of the nervous system,2585,47,1.57,0.0042587187,1.15,2.09
 466.0 ,Acute bronchitis,Diseases of the respiratory system,992964,13588,1.57,1.10048e-191,1.52,1.61
 110.9 ,Dermatophytosis of unspecified...,Infectious and parasitic diseases,11238,204,1.57,0.0000000030517024,1.36,1.8
 704.9 ,Unspecified disease of hair and...,Diseases of the skin and subcutaneous...,1974,36,1.57,0.0112912045,1.1,2.19
-349.9 ,Unspecified disorders of nervous...,Diseases of the nervous system,8691,158,1.57,0.0000001700008,1.33,1.84
-729.4 ,"Fasciitis, unspecified",Diseases of the musculoskeletal...,5448,99,1.57,0.0000369451,1.27,1.91
-780.4 ,Dizziness and giddiness,"Comorbidities, signs, and ill-defined...",21710,393,1.57,1.833583e-16,1.42,1.74
+754.30 ,"Congenital dislocation of hip,...",Congenital anomalies,2105,38,1.56,0.0106503812,1.1,2.14
+374.0 ,Entropion and trichiasis of eyelid,Diseases of the nervous system,2928,53,1.56,0.002451043,1.17,2.05
 919.0 ,"Abrasion or friction burn of other,...",Injury and poisoning,12806,231,1.56,0.0000000003952304,1.36,1.78
 595 ,Cystitis,Diseases of the genitourinary...,2101,38,1.56,0.0105525501,1.1,2.15
 682.0 ,Cellulitis and abscess of face,Diseases of the skin and subcutaneous...,3817,69,1.56,0.0006438888,1.21,1.98
-754.30 ,"Congenital dislocation of hip,...",Congenital anomalies,2105,38,1.56,0.0106503812,1.1,2.14
-374.0 ,Entropion and trichiasis of eyelid,Diseases of the nervous system,2928,53,1.56,0.002451043,1.17,2.05
 780.6 ,Fever,"Comorbidities, signs, and ill-defined...",322720,5252,1.55,1.15096e-147,1.5,1.6
-486 ,"Pneumonia, organism unspecified",Diseases of the respiratory system,117484,2028,1.54,3.039647e-67,1.47,1.62
 373.13 ,Abscess of eyelid,Diseases of the nervous system,10984,196,1.54,0.000000017870929,1.33,1.78
+486 ,"Pneumonia, organism unspecified",Diseases of the respiratory system,117484,2028,1.54,3.039647e-67,1.47,1.62
 464.1 ,Acute tracheitis,Diseases of the respiratory system,40817,717,1.53,1.333444e-25,1.42,1.65
+729.5 ,Pain in limb,Diseases of the musculoskeletal...,2487,44,1.52,0.0085583348,1.1,2.05
 493.0 ,Extrinsic asthma,Diseases of the respiratory system,4924,87,1.52,0.0002440664,1.22,1.88
 111.0 ,Pityriasis versicolor,Infectious and parasitic diseases,9791,172,1.52,0.00000040477706,1.3,1.77
-729.5 ,Pain in limb,Diseases of the musculoskeletal...,2487,44,1.52,0.0085583348,1.1,2.05
-550.9 ,"Inguinal hernia, without mention...",Diseases of the digestive system,3255,57,1.51,0.003213613,1.14,1.96
-690 ,Erythematosquamous dermatosis,Diseases of the skin and subcutaneous...,15044,263,1.51,0.0000000005775739,1.33,1.71
 345.9 ,"Epilepsy, unspecified",Diseases of the nervous system,5009,88,1.51,0.0002754402,1.21,1.87
 372.00 ,"Acute conjunctivitis, unspecified",Diseases of the nervous system,318530,5100,1.51,6.7995e-130,1.46,1.56
 785.6 ,Enlargement of lymph nodes,"Comorbidities, signs, and ill-defined...",5836,102,1.51,0.000113145,1.23,1.83
+550.9 ,"Inguinal hernia, without mention...",Diseases of the digestive system,3255,57,1.51,0.003213613,1.14,1.96
+690 ,Erythematosquamous dermatosis,Diseases of the skin and subcutaneous...,15044,263,1.51,0.0000000005775739,1.33,1.71
+788.4 ,Frequency of urination and polyuria,"Comorbidities, signs, and ill-defined...",9236,160,1.5,0.0000022745887,1.27,1.75
 477.9 ,"Allergic rhinitis, cause unspecified",Diseases of the respiratory system,279048,4507,1.5,2.87745e-117,1.45,1.56
 493.9 ,"Asthma, unspecified",Diseases of the respiratory system,55285,947,1.5,6.137322e-30,1.4,1.6
 523.9 ,Unspecified gingival and periodontal...,Diseases of the digestive system,3382,59,1.5,0.0029712355,1.14,1.95
 616.1 ,Vaginitis and vulvovaginitis,Diseases of the genitourinary...,3050,53,1.5,0.0052538164,1.12,1.96
-788.4 ,Frequency of urination and polyuria,"Comorbidities, signs, and ill-defined...",9236,160,1.5,0.0000022745887,1.27,1.75
+788.1 ,Dysuria,"Comorbidities, signs, and ill-defined...",1909,33,1.49,0.0319330538,1.02,2.1
 854.09 ,Intracranial injury of other and...,Injury and poisoning,3061,53,1.49,0.0067695145,1.11,1.96
 555.9 ,Regional enteritis of unspecified...,Diseases of the digestive system,29393,503,1.49,2.705671e-16,1.36,1.62
 129 ,"Intestinal parasitism, unspecified",Infectious and parasitic diseases,5915,102,1.49,0.0001644519,1.21,1.81
-788.1 ,Dysuria,"Comorbidities, signs, and ill-defined...",1909,33,1.49,0.0319330538,1.02,2.1
 380.23 ,Other chronic otitis externa,Diseases of the nervous system,2040,35,1.48,0.0294172179,1.03,2.06
 873.44 ,"Open wound of jaw, without mention...",Injury and poisoning,4307,74,1.48,0.0017036489,1.16,1.86
 482.8 ,Pneumonia due to other specified...,Diseases of the respiratory system,3846,66,1.48,0.0025902074,1.14,1.89
 528 ,"Disease of the oral soft tissues,...",Diseases of the digestive system,2497,43,1.48,0.0148558403,1.07,2
 599.7 ,Hematuria,Diseases of the genitourinary...,8412,144,1.48,0.0000115345,1.24,1.74
 558.9 ,Other and unspecified noninfectious...,Diseases of the digestive system,739813,10529,1.48,1.93406e-162,1.44,1.52
+745.5 ,Ostium secundum type atrial septal...,Congenital anomalies,7329,125,1.47,0.0000525811,1.22,1.76
+771.8 ,Septicemia [sepsis] of newborn,Certain conditions originating...,2463,42,1.47,0.018405277,1.06,1.99
 873.42 ,"Open wound of forehead, without...",Injury and poisoning,10006,170,1.47,0.0000029070607,1.25,1.71
 923.21 ,Contusion of wrist,Injury and poisoning,1877,32,1.47,0.0399427029,1,2.08
 485 ,"Bronchopneumonia, organism unspecified",Diseases of the respiratory system,138294,2282,1.47,4.927311e-61,1.41,1.54
@@ -177,14 +179,12 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 682.9 ,Cellulitis and abscess of unspecified...,Diseases of the skin and subcutaneous...,47389,800,1.47,9.499131e-24,1.37,1.58
 536.9 ,Unspecified functional disorder...,Diseases of the digestive system,218098,3519,1.47,3.632298e-87,1.42,1.53
 686.0 ,Pyoderma,Diseases of the skin and subcutaneous...,25644,436,1.47,0.00000000000006895449,1.34,1.62
-745.5 ,Ostium secundum type atrial septal...,Congenital anomalies,7329,125,1.47,0.0000525811,1.22,1.76
-771.8 ,Septicemia [sepsis] of newborn,Certain conditions originating...,2463,42,1.47,0.018405277,1.06,1.99
+370.9 ,Unspecified keratitis,Diseases of the nervous system,3189,54,1.46,0.0081468587,1.09,1.91
 873.43 ,"Open wound of lip, without mention...",Injury and poisoning,4966,84,1.46,0.0011478213,1.16,1.81
 922.3 ,Contusion of back,Injury and poisoning,3061,52,1.46,0.0088725272,1.09,1.92
 477.0 ,Allergic rhinitis due to pollen,Diseases of the respiratory system,5012,85,1.46,0.0009625621,1.16,1.81
 599.0 ,"Urinary tract infection, site...",Diseases of the genitourinary...,98930,1634,1.46,2.785459e-43,1.39,1.54
 315.3 ,Developmental speech or language...,Mental disorders,5132,87,1.46,0.0008717794,1.17,1.81
-370.9 ,Unspecified keratitis,Diseases of the nervous system,3189,54,1.46,0.0081468587,1.09,1.91
 873.49 ,Open wound of other and multiple...,Injury and poisoning,4507,76,1.45,0.0021750731,1.14,1.82
 535.50 ,"Unspecified gastritis and gastroduodenitis,...",Diseases of the digestive system,126653,2065,1.45,1.767504e-51,1.38,1.52
 555 ,Regional enteritis,Diseases of the digestive system,4217,71,1.45,0.0031501154,1.13,1.83
@@ -195,6 +195,7 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 931 ,Foreign body in ear,Injury and poisoning,8401,139,1.43,0.0000847811,1.2,1.69
 487.8 ,Influenza with other manifestations,Diseases of the respiratory system,39562,652,1.43,2.383661e-17,1.32,1.55
 285.9 ,"Anemia, unspecified",Diseases of the blood and blood-forming...,9431,156,1.43,0.0000340289,1.21,1.67
+709.2 ,Scar conditions and fibrosis of...,Diseases of the skin and subcutaneous...,2977,49,1.42,0.0206559082,1.05,1.88
 389.9 ,Unspecified hearing loss,Diseases of the nervous system,6818,112,1.42,0.0005497862,1.16,1.71
 893.0 ,"Open wound of toe(s), without...",Injury and poisoning,4429,73,1.42,0.0049393802,1.11,1.79
 922.9 ,Contusion of unspecified part...,Injury and poisoning,2911,48,1.42,0.0195179685,1.04,1.89
@@ -202,7 +203,9 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 555.0 ,Regional enteritis of small intestine,Diseases of the digestive system,5087,84,1.42,0.0020991635,1.13,1.76
 112.3 ,Candidiasis of skin and nails,Infectious and parasitic diseases,5875,97,1.42,0.0009981389,1.15,1.74
 560.39 ,Other impaction of intestine,Diseases of the digestive system,19156,314,1.42,0.0000000082811421,1.26,1.59
-709.2 ,Scar conditions and fibrosis of...,Diseases of the skin and subcutaneous...,2977,49,1.42,0.0206559082,1.05,1.88
+322.9 ,"Meningitis, unspecified",Diseases of the nervous system,3772,62,1.41,0.0096434957,1.08,1.82
+708.8 ,Other specified urticaria,Diseases of the skin and subcutaneous...,10910,179,1.41,0.0000137756,1.21,1.64
+786.2 ,Cough,"Comorbidities, signs, and ill-defined...",94852,1517,1.41,1.108025e-33,1.33,1.48
 382.4 ,Unspecified suppurative otitis...,Diseases of the nervous system,10555,173,1.41,0.0000185807,1.21,1.64
 463 ,Acute tonsillitis,Diseases of the respiratory system,839547,11450,1.41,1.89868e-123,1.37,1.45
 922.2 ,Contusion of abdominal wall,Injury and poisoning,1892,31,1.41,0.0673716883,0.95,2.01
@@ -210,29 +213,29 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 523.0 ,Acute gingivitis,Diseases of the digestive system,4143,68,1.41,0.0071857372,1.09,1.8
 616.9 ,Unspecified inflammatory disease...,Diseases of the genitourinary...,13522,221,1.41,0.0000016424042,1.23,1.61
 535.0 ,Acute gastritis,Diseases of the digestive system,64942,1046,1.41,3.216047e-24,1.32,1.5
-322.9 ,"Meningitis, unspecified",Diseases of the nervous system,3772,62,1.41,0.0096434957,1.08,1.82
-708.8 ,Other specified urticaria,Diseases of the skin and subcutaneous...,10910,179,1.41,0.0000137756,1.21,1.64
-786.2 ,Cough,"Comorbidities, signs, and ill-defined...",94852,1517,1.41,1.108025e-33,1.33,1.48
-110.1 ,Dermatophytosis of nail,Infectious and parasitic diseases,2029,33,1.4,0.0618254639,0.96,1.97
 786.5 ,Chest pain,"Comorbidities, signs, and ill-defined...",3325,54,1.4,0.0187698373,1.05,1.83
-854.0 ,Intracranial injury of other and...,Injury and poisoning,3713,60,1.39,0.0142181464,1.06,1.79
+110.1 ,Dermatophytosis of nail,Infectious and parasitic diseases,2029,33,1.4,0.0618254639,0.96,1.97
 345.90 ,"Epilepsy, unspecified, without...",Diseases of the nervous system,6860,111,1.39,0.0008783369,1.14,1.68
+854.0 ,Intracranial injury of other and...,Injury and poisoning,3713,60,1.39,0.0142181464,1.06,1.79
+372.9 ,Unspecified disorder of conjunctiva,Diseases of the nervous system,6305,101,1.38,0.0022055875,1.12,1.68
+784.2 ,"Swelling, mass, or lump in head...","Comorbidities, signs, and ill-defined...",3364,54,1.38,0.0240211932,1.03,1.81
 535.01 ,"Acute gastritis, with hemorrhage",Diseases of the digestive system,5165,83,1.38,0.0051598284,1.1,1.72
 110.3 ,Dermatophytosis of groin and perianal...,Infectious and parasitic diseases,4164,67,1.38,0.0112515988,1.07,1.76
 315.9 ,Unspecified delay in development,Mental disorders,6224,100,1.38,0.0020681988,1.12,1.69
-372.9 ,Unspecified disorder of conjunctiva,Diseases of the nervous system,6305,101,1.38,0.0022055875,1.12,1.68
-784.2 ,"Swelling, mass, or lump in head...","Comorbidities, signs, and ill-defined...",3364,54,1.38,0.0240211932,1.03,1.81
+723.5 ,"Torticollis, unspecified",Diseases of the musculoskeletal...,4898,78,1.37,0.007628724,1.08,1.71
+379.93 ,Redness or discharge of eye,Diseases of the nervous system,2701,43,1.37,0.0478727607,0.99,1.85
 462 ,Acute pharyngitis,Diseases of the respiratory system,690401,9558,1.37,1.10653e-103,1.33,1.41
 464.4 ,Croup,Diseases of the respiratory system,42449,670,1.37,0.0000000000000332492,1.26,1.48
 922.1 ,Contusion of chest wall,Injury and poisoning,4269,68,1.37,0.0124196365,1.06,1.74
 478 ,Other diseases of upper respiratory...,Diseases of the respiratory system,7092,113,1.37,0.0015525,1.13,1.65
 680.0 ,Carbuncle and furuncle of face,Diseases of the skin and subcutaneous...,9082,144,1.37,0.00041035,1.15,1.61
-723.5 ,"Torticollis, unspecified",Diseases of the musculoskeletal...,4898,78,1.37,0.007628724,1.08,1.71
-379.93 ,Redness or discharge of eye,Diseases of the nervous system,2701,43,1.37,0.0478727607,0.99,1.85
 923.11 ,Contusion of elbow,Injury and poisoning,4240,67,1.36,0.0178462216,1.05,1.73
 478.22 ,Parapharyngeal abscess,Diseases of the respiratory system,2093,33,1.36,0.0833911221,0.93,1.91
 698.9 ,Unspecified pruritic disorder,Diseases of the skin and subcutaneous...,40873,639,1.36,0.0000000000007705654,1.25,1.47
 315.5 ,Mixed development disorder,Mental disorders,4674,74,1.36,0.0114349995,1.07,1.71
+362.21 ,Retrolental fibroplasia,Diseases of the nervous system,2163,34,1.35,0.0876569642,0.93,1.9
+372.11 ,Simple chronic conjunctivitis,Diseases of the nervous system,42606,664,1.35,0.0000000000004181824,1.25,1.46
+786.1 ,Stridor,"Comorbidities, signs, and ill-defined...",9844,154,1.35,0.000485863,1.14,1.58
 884.0 ,Multiple and unspecified open...,Injury and poisoning,13560,212,1.35,0.0000412387,1.17,1.54
 891 ,"Open wound of knee, leg (except...",Injury and poisoning,2045,32,1.35,0.0986831318,0.92,1.91
 894.0 ,Multiple and unspecified open...,Injury and poisoning,20708,324,1.35,0.00000036718178,1.21,1.51
@@ -241,22 +244,20 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 493 ,Asthma,Diseases of the respiratory system,23241,364,1.35,0.000000059881185,1.21,1.5
 493.90 ,"Asthma, unspecified type, unspecified",Diseases of the respiratory system,129995,1983,1.35,5.412922e-33,1.28,1.41
 684 ,Impetigo,Diseases of the skin and subcutaneous...,47723,742,1.35,0.00000000000003007331,1.25,1.45
-362.21 ,Retrolental fibroplasia,Diseases of the nervous system,2163,34,1.35,0.0876569642,0.93,1.9
-372.11 ,Simple chronic conjunctivitis,Diseases of the nervous system,42606,664,1.35,0.0000000000004181824,1.25,1.46
-786.1 ,Stridor,"Comorbidities, signs, and ill-defined...",9844,154,1.35,0.000485863,1.14,1.58
+378.0 ,Esotropia,Diseases of the nervous system,2302,36,1.34,0.0802171848,0.94,1.87
 427.9 ,"Cardiac dysrhythmia, unspecified",Diseases of the circulatory system,5388,84,1.34,0.0108743254,1.07,1.66
 464.0 ,Acute laryngitis,Diseases of the respiratory system,350647,5125,1.34,6.504182e-70,1.3,1.39
-378.0 ,Esotropia,Diseases of the nervous system,2302,36,1.34,0.0802171848,0.94,1.87
+373.0 ,Blepharitis,Diseases of the nervous system,3941,61,1.33,0.0310436726,1.02,1.71
+380.2 ,Other otitis externa,Diseases of the nervous system,2396,37,1.33,0.0868211207,0.93,1.84
 382.0 ,Acute suppurative otitis media,Diseases of the nervous system,31031,476,1.33,0.0000000068799494,1.21,1.45
 473.0 ,Chronic maxillary sinusitis,Diseases of the respiratory system,2071,32,1.33,0.1231608196,0.91,1.88
 692.3 ,Contact dermatitis and other eczema...,Diseases of the skin and subcutaneous...,6852,106,1.33,0.0047895536,1.09,1.61
-373.0 ,Blepharitis,Diseases of the nervous system,3941,61,1.33,0.0310436726,1.02,1.71
-380.2 ,Other otitis externa,Diseases of the nervous system,2396,37,1.33,0.0868211207,0.93,1.84
+372 ,Disorders of conjunctiva,Diseases of the nervous system,11390,174,1.32,0.0006292202,1.12,1.53
 465.8 ,Acute upper respiratory infections...,Diseases of the respiratory system,261221,3837,1.32,2.414434e-51,1.28,1.37
 466 ,Acute bvronchitis and bronchiolitis,Diseases of the respiratory system,110991,1672,1.32,1.985379e-25,1.26,1.39
 472.2 ,Chronic nasopharyngitis,Diseases of the respiratory system,34994,536,1.32,0.0000000009507496,1.21,1.44
 701.1 ,"Keratoderma, acquired",Diseases of the skin and subcutaneous...,3321,51,1.32,0.0521658942,0.98,1.74
-372 ,Disorders of conjunctiva,Diseases of the nervous system,11390,174,1.32,0.0006292202,1.12,1.53
+375.55 ,"Obstruction of nasolacrimal duct,...",Diseases of the nervous system,3863,59,1.31,0.0425986638,1,1.7
 879.8 ,Open wound(s) (multiple) of unspecified...,Injury and poisoning,13380,203,1.31,0.0002742277,1.13,1.5
 911.0 ,"Abrasion or friction burn of trunk,...",Injury and poisoning,1966,30,1.31,0.1406160806,0.88,1.88
 927.3 ,Crushing injury of finger(s),Injury and poisoning,3203,49,1.31,0.0692707623,0.97,1.74
@@ -264,16 +265,17 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 558.2 ,Toxic gastroenteritis and colitis,Diseases of the digestive system,7427,113,1.31,0.0067002209,1.08,1.58
 698.2 ,Prurigo,Diseases of the skin and subcutaneous...,56291,847,1.31,0.0000000000004133766,1.22,1.4
 319 ,Unspecified intellectual disabilities,Mental disorders,2630,40,1.31,0.101019865,0.93,1.79
-375.55 ,"Obstruction of nasolacrimal duct,...",Diseases of the nervous system,3863,59,1.31,0.0425986638,1,1.7
+727.00 ,"Synovitis and tenosynovitis, unspecified",Diseases of the musculoskeletal...,10026,151,1.3,0.0024066016,1.1,1.52
+750.0 ,Tongue tie,Congenital anomalies,6228,94,1.3,0.0152484627,1.05,1.59
+786.50 ,"Chest pain, unspecified","Comorbidities, signs, and ill-defined...",6066,92,1.3,0.0139994705,1.05,1.6
 854.01 ,Intracranial injury of other and...,Injury and poisoning,7430,112,1.3,0.0079757908,1.07,1.56
 461.9 ,"Acute sinusitis, unspecified",Diseases of the respiratory system,733276,9826,1.3,1.20093e-73,1.26,1.34
 464.10 ,Acute tracheitis without mention...,Diseases of the respiratory system,287399,4153,1.3,3.486336e-49,1.26,1.35
 564.8 ,Other specified function disorder...,Diseases of the digestive system,50314,756,1.3,0.00000000001112837,1.21,1.4
 682.6 ,"Cellulitis and abscess of leg,...",Diseases of the skin and subcutaneous...,2778,42,1.3,0.0929386039,0.93,1.76
 217 ,Benign neoplasm of breast,Neoplasms,3440,52,1.3,0.0671109849,0.97,1.71
-727.00 ,"Synovitis and tenosynovitis, unspecified",Diseases of the musculoskeletal...,10026,151,1.3,0.0024066016,1.1,1.52
-750.0 ,Tongue tie,Congenital anomalies,6228,94,1.3,0.0152484627,1.05,1.59
-786.50 ,"Chest pain, unspecified","Comorbidities, signs, and ill-defined...",6066,92,1.3,0.0139994705,1.05,1.6
+719.4 ,Pain in joint,Diseases of the musculoskeletal...,1930,29,1.29,0.1675996808,0.86,1.86
+378.9 ,Unspecified disorder of eye movements,Diseases of the nervous system,4195,63,1.29,0.0515289339,0.99,1.66
 381.1 ,Chronic serous otitis media,Diseases of the nervous system,4253,64,1.29,0.0451521323,0.99,1.66
 461 ,Acute sinusitis,Diseases of the respiratory system,63613,944,1.29,0.0000000000003631545,1.2,1.38
 466.1 ,Acute bronchiolitis,Diseases of the respiratory system,468944,6521,1.29,2.177042e-60,1.25,1.33
@@ -281,16 +283,14 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 077.2 ,Pharyngoconjunctival fever,Infectious and parasitic diseases,9396,141,1.29,0.00381298,1.08,1.53
 087.9 ,"Relapsing fever, unspecified",Infectious and parasitic diseases,6456,97,1.29,0.0147082589,1.05,1.58
 691.0 ,Diaper or napkin rash,Diseases of the skin and subcutaneous...,85816,1271,1.29,3.630836e-17,1.22,1.37
-719.4 ,Pain in joint,Diseases of the musculoskeletal...,1930,29,1.29,0.1675996808,0.86,1.86
-378.9 ,Unspecified disorder of eye movements,Diseases of the nervous system,4195,63,1.29,0.0515289339,0.99,1.66
-487 ,Influenza,Diseases of the respiratory system,21554,320,1.28,0.0000286173,1.14,1.43
-692.0 ,Contact dermatitis and other eczema...,Diseases of the skin and subcutaneous...,37380,554,1.28,0.00000003675141,1.17,1.39
 780.3 ,Convulsions,"Comorbidities, signs, and ill-defined...",12885,191,1.28,0.0013089287,1.1,1.47
 373.11 ,Hordeolum externum,Diseases of the nervous system,69154,1018,1.28,0.0000000000002696588,1.2,1.36
-850 ,Concussion,Injury and poisoning,5070,75,1.27,0.0423037952,1,1.6
-112.0 ,Candidiasis of mouth,Infectious and parasitic diseases,42218,620,1.27,0.000000021123929,1.17,1.38
+487 ,Influenza,Diseases of the respiratory system,21554,320,1.28,0.0000286173,1.14,1.43
+692.0 ,Contact dermatitis and other eczema...,Diseases of the skin and subcutaneous...,37380,554,1.28,0.00000003675141,1.17,1.39
 746.9 ,Unspecified congenital anomaly...,Congenital anomalies,17041,252,1.27,0.0002535199,1.12,1.44
 788.3 ,Incontinence of urine,"Comorbidities, signs, and ill-defined...",5464,81,1.27,0.0370472188,1.01,1.59
+850 ,Concussion,Injury and poisoning,5070,75,1.27,0.0423037952,1,1.6
+112.0 ,Candidiasis of mouth,Infectious and parasitic diseases,42218,620,1.27,0.000000021123929,1.17,1.38
 472.0 ,Chronic rhinitis,Diseases of the respiratory system,101482,1462,1.26,7.966598e-16,1.19,1.32
 569.9 ,Unspecified disorder of intestine,Diseases of the digestive system,9224,135,1.26,0.009953985,1.05,1.49
 611.72 ,Lump or mass in breast,Diseases of the genitourinary...,2258,33,1.26,0.2011782149,0.86,1.77
@@ -300,23 +300,23 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 127.4 ,Enterobiasis,Infectious and parasitic diseases,21726,317,1.26,0.0001042413,1.12,1.41
 682 ,Other cellulitis and abscess,Diseases of the skin and subcutaneous...,4536,66,1.25,0.0830022737,0.96,1.59
 314.01 ,Attention deficit disorder with...,Mental disorders,2689,39,1.25,0.176866332,0.88,1.71
+754.1 ,Congenital musculoskeletal deformities...,Congenital anomalies,2290,33,1.24,0.2412196907,0.85,1.74
+378.00 ,"Esotropia, unspecified",Diseases of the nervous system,3397,49,1.24,0.1491881091,0.91,1.64
+380.15 ,Chronic mycotic otitis externa,Diseases of the nervous system,3730,54,1.24,0.1261699258,0.93,1.63
 810.00 ,"Closed fracture of clavicle, unspecified...",Injury and poisoning,2003,29,1.24,0.2506580728,0.83,1.79
 460 ,Acute nasopharyngitis [common...,Diseases of the respiratory system,869734,11177,1.24,1.987757e-48,1.2,1.27
 919.4 ,"Insect bite, nonvenomous, of other,...",Injury and poisoning,56758,811,1.24,0.000000012880223,1.15,1.33
 009.3 ,Diarrhea of presumed infectious...,Infectious and parasitic diseases,33536,481,1.24,0.0000088592422,1.13,1.35
 243 ,Congenital hypothyroidism,"Endocrine, nutritional and metabolic...",2009,29,1.24,0.25160528,0.83,1.79
 705.1 ,Prickly heat,Diseases of the skin and subcutaneous...,34010,490,1.24,0.0000049450079,1.13,1.36
-754.1 ,Congenital musculoskeletal deformities...,Congenital anomalies,2290,33,1.24,0.2412196907,0.85,1.74
-378.00 ,"Esotropia, unspecified",Diseases of the nervous system,3397,49,1.24,0.1491881091,0.91,1.64
-380.15 ,Chronic mycotic otitis externa,Diseases of the nervous system,3730,54,1.24,0.1261699258,0.93,1.63
+372.14 ,Other chronic allergic conjunctivitis,Diseases of the nervous system,194672,2720,1.23,2.184208e-22,1.18,1.28
+372.72 ,Conjunctival hemorrhage,Diseases of the nervous system,16687,239,1.23,0.0020668109,1.08,1.4
+378.1 ,Exophopia,Diseases of the nervous system,2649,38,1.23,0.2041422033,0.87,1.7
 854 ,Intracranial injury of other and...,Injury and poisoning,2436,35,1.23,0.2187766257,0.86,1.72
 892.0 ,Open wound of foot except toe(s)...,Injury and poisoning,11505,165,1.23,0.0101237089,1.05,1.44
 074.0 ,Herpangina,Infectious and parasitic diseases,233533,3237,1.23,6.827311e-25,1.18,1.27
 110.4 ,Dermatophytosis of foot,Infectious and parasitic diseases,15267,219,1.23,0.0027791274,1.07,1.41
 216.9 ,"Benign neoplasm of skin, site...",Neoplasms,8836,126,1.23,0.0287513793,1.02,1.46
-372.14 ,Other chronic allergic conjunctivitis,Diseases of the nervous system,194672,2720,1.23,2.184208e-22,1.18,1.28
-372.72 ,Conjunctival hemorrhage,Diseases of the nervous system,16687,239,1.23,0.0020668109,1.08,1.4
-378.1 ,Exophopia,Diseases of the nervous system,2649,38,1.23,0.2041422033,0.87,1.7
 850.0 ,Concussion with no loss of consciousness,Injury and poisoning,10663,152,1.22,0.01644339,1.04,1.44
 389.10 ,"Sensorineural hearing loss, unspecified",Diseases of the nervous system,2543,36,1.22,0.2300846332,0.85,1.69
 891.0 ,"Open wound of knee, leg [except...",Injury and poisoning,13787,196,1.22,0.0067639324,1.06,1.41
@@ -325,20 +325,22 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 536 ,Disorders of function of stomach,Diseases of the digestive system,11241,159,1.22,0.0173082247,1.03,1.42
 692.9 ,"Contact dermatitis and other eczema,...",Diseases of the skin and subcutaneous...,373591,5082,1.22,5.150823e-34,1.19,1.26
 307.6 ,Enuresis,Mental disorders,3801,54,1.22,0.1504289586,0.91,1.6
+708.0 ,Allergic urticaria,Diseases of the skin and subcutaneous...,51425,723,1.21,0.00000077003683,1.13,1.31
+367 ,"Infantile, juvenile, and presenile...",Diseases of the nervous system,16254,228,1.21,0.0065978481,1.05,1.38
+708.9 ,"Urticaria, unspecified",Diseases of the skin and subcutaneous...,162908,2256,1.21,7.38749e-17,1.16,1.27
+380.1 ,Infective otitis externa,Diseases of the nervous system,3746,53,1.21,0.1696978226,0.91,1.59
 381.06 ,Acute allergic sanguinous otitis...,Diseases of the nervous system,1908,27,1.21,0.2870573253,0.8,1.77
 882.0 ,Open wound of hand except finger(s)...,Injury and poisoning,7119,100,1.21,0.067863052,0.98,1.47
 924.21 ,Contusion of ankle,Injury and poisoning,3059,43,1.21,0.2371456364,0.87,1.63
 535.4 ,Other specified gastritis,Diseases of the digestive system,2912,41,1.21,0.2261126295,0.87,1.64
 682.8 ,Cellulitis and abscess of other...,Diseases of the skin and subcutaneous...,4339,61,1.21,0.1563103449,0.92,1.55
-708.0 ,Allergic urticaria,Diseases of the skin and subcutaneous...,51425,723,1.21,0.00000077003683,1.13,1.31
-367 ,"Infantile, juvenile, and presenile...",Diseases of the nervous system,16254,228,1.21,0.0065978481,1.05,1.38
-708.9 ,"Urticaria, unspecified",Diseases of the skin and subcutaneous...,162908,2256,1.21,7.38749e-17,1.16,1.27
-380.1 ,Infective otitis externa,Diseases of the nervous system,3746,53,1.21,0.1696978226,0.91,1.59
+728.9 ,"Unspecified disorder of muscle,...",Diseases of the musculoskeletal...,2434,34,1.2,0.2976976282,0.83,1.68
+745.4 ,Ventricular septal defect,Congenital anomalies,6523,91,1.2,0.0936916342,0.96,1.47
 381.01 ,Acute serous otitis media,Diseases of the nervous system,13778,192,1.2,0.0151405158,1.03,1.38
 841.9 ,Sprains and strains of unspecified...,Injury and poisoning,2565,36,1.2,0.2685955788,0.84,1.67
 478.9 ,Other and unspecified diseases...,Diseases of the respiratory system,24301,338,1.2,0.0015803652,1.07,1.33
-728.9 ,"Unspecified disorder of muscle,...",Diseases of the musculoskeletal...,2434,34,1.2,0.2976976282,0.83,1.68
-745.4 ,Ventricular septal defect,Congenital anomalies,6523,91,1.2,0.0936916342,0.96,1.47
+779.3 ,NB FEEDING PROBLEMS,Certain conditions originating...,6687,93,1.19,0.0977549084,0.96,1.47
+374.05 ,Trichiasis of eyelid without entropion,Diseases of the nervous system,13697,190,1.19,0.0184637248,1.03,1.38
 382.9 ,Unspecified otitis media,Diseases of the nervous system,227293,3069,1.19,1.787266e-17,1.14,1.23
 873 ,Other open wound of head,Injury and poisoning,6611,92,1.19,0.0959224453,0.96,1.47
 461.1 ,Acute frontal sinusitis,Diseases of the respiratory system,4186,58,1.19,0.1941644202,0.9,1.54
@@ -346,34 +348,36 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 949.0 ,"Burn of unspecified site, unspecified...",Injury and poisoning,11570,160,1.19,0.0333558811,1.01,1.39
 493.10 ,"Intrinsic asthma, unspecified",Diseases of the respiratory system,3835,53,1.19,0.2277384279,0.89,1.56
 629.9 ,Unspecified disorder of female...,Diseases of the genitourinary...,4888,68,1.19,0.1425950474,0.93,1.52
-779.3 ,NB FEEDING PROBLEMS,Certain conditions originating...,6687,93,1.19,0.0977549084,0.96,1.47
-374.05 ,Trichiasis of eyelid without entropion,Diseases of the nervous system,13697,190,1.19,0.0184637248,1.03,1.38
+368.0 ,Amblyopia ex anopsia,Diseases of the nervous system,7777,107,1.18,0.0903717792,0.97,1.43
 480.0 ,Pneumonia due to adenovirus,Diseases of the respiratory system,2480,34,1.18,0.3483814853,0.81,1.65
 490 ,"Bronchitis, not specified as acute...",Diseases of the respiratory system,52894,726,1.18,0.0000142688,1.1,1.28
 535 ,Gastritis and duodenitis,Diseases of the digestive system,20258,278,1.18,0.0076875572,1.04,1.33
 550.92 ,"Inguinal hernia, without mention...",Diseases of the digestive system,2248,31,1.18,0.326128999,0.8,1.68
 259.1 ,Precocious sexual development...,"Endocrine, nutritional and metabolic...",6754,93,1.18,0.1119132527,0.95,1.45
-368.0 ,Amblyopia ex anopsia,Diseases of the nervous system,7777,107,1.18,0.0903717792,0.97,1.43
+372.0 ,Acute conjunctivitis,Diseases of the nervous system,49211,668,1.17,0.0001060209,1.08,1.26
+373.00 ,"Blepharitis, unspecified",Diseases of the nervous system,23786,324,1.17,0.0062098375,1.05,1.31
 491.20 ,Obstructive chronic bronchitis...,Diseases of the respiratory system,3014,41,1.17,0.3084967123,0.84,1.59
 523.1 ,Chronic gingivitis,Diseases of the digestive system,2792,38,1.17,0.3315572754,0.82,1.61
 616.10 ,"Vaginitis and vulvovaginitis,...",Diseases of the genitourinary...,17044,233,1.17,0.0179719801,1.03,1.34
 535.00 ,"Acute gastritis, without mention...",Diseases of the digestive system,223217,2988,1.17,0.000000000000003172494,1.13,1.22
 681.11 ,Onychia and paronychia of toe,Diseases of the skin and subcutaneous...,4188,57,1.17,0.2485648801,0.88,1.52
 698.1 ,Pruritus of genital organs,Diseases of the skin and subcutaneous...,5003,68,1.17,0.2100639628,0.9,1.48
-372.0 ,Acute conjunctivitis,Diseases of the nervous system,49211,668,1.17,0.0001060209,1.08,1.26
-373.00 ,"Blepharitis, unspecified",Diseases of the nervous system,23786,324,1.17,0.0062098375,1.05,1.31
+367.53 ,Spasm of accommodation,Diseases of the nervous system,12613,170,1.16,0.0612408084,0.99,1.35
+737.30 ,"Scoliosis [and kyphoscoliosis],...",Diseases of the musculoskeletal...,1919,26,1.16,0.455157254,0.76,1.71
 921.3 ,Contusion of eyeball,Injury and poisoning,4224,57,1.16,0.2813454471,0.87,1.5
 054.2 ,Herpetic gingivostomatitis,Infectious and parasitic diseases,42697,576,1.16,0.000569144,1.07,1.26
 078.0 ,Molluscum contagiosum,Infectious and parasitic diseases,1853,25,1.16,0.4478582758,0.75,1.71
 704.8 ,Other specified diseases of hair...,Diseases of the skin and subcutaneous...,22660,307,1.16,0.0097611243,1.04,1.3
-367.53 ,Spasm of accommodation,Diseases of the nervous system,12613,170,1.16,0.0612408084,0.99,1.35
-737.30 ,"Scoliosis [and kyphoscoliosis],...",Diseases of the musculoskeletal...,1919,26,1.16,0.455157254,0.76,1.71
-381.10 ,"Chronic serous otitis media, simple...",Diseases of the nervous system,3878,52,1.15,0.3298343776,0.86,1.51
-923.3 ,Contusion of finger,Injury and poisoning,2535,34,1.15,0.4042611061,0.79,1.61
-691.8 ,Other atopic dermatitis and related...,Diseases of the skin and subcutaneous...,106313,1414,1.15,0.00000066614549,1.09,1.22
 706.0 ,Acne varioliformis,Diseases of the skin and subcutaneous...,2236,30,1.15,0.4298013608,0.77,1.65
 372.1 ,Chronic conjunctivitis,Diseases of the nervous system,51589,687,1.15,0.0005930518,1.06,1.24
 784.7 ,Epistaxis,"Comorbidities, signs, and ill-defined...",45235,603,1.15,0.0011979263,1.06,1.25
+381.10 ,"Chronic serous otitis media, simple...",Diseases of the nervous system,3878,52,1.15,0.3298343776,0.86,1.51
+923.3 ,Contusion of finger,Injury and poisoning,2535,34,1.15,0.4042611061,0.79,1.61
+691.8 ,Other atopic dermatitis and related...,Diseases of the skin and subcutaneous...,106313,1414,1.15,0.00000066614549,1.09,1.22
+706.1 ,Other acne,Diseases of the skin and subcutaneous...,15031,200,1.14,0.0670899211,0.99,1.31
+370.49 ,Other keratoconjunctivitis,Diseases of the nervous system,3166,42,1.14,0.4067818293,0.82,1.54
+373.32 ,Contact and allergic dermatitis...,Diseases of the nervous system,2712,36,1.14,0.4203311582,0.8,1.58
+380.10 ,"Infective otitis externa, unspecified",Diseases of the nervous system,74372,982,1.14,0.0001062576,1.07,1.21
 473.9 ,Unspecified sinusitis (chronic),Diseases of the respiratory system,47515,632,1.14,0.0010719891,1.06,1.24
 474.10 ,Hypertrophy of tonsil with adenoids,Diseases of the respiratory system,3831,51,1.14,0.3278874007,0.85,1.5
 487.0 ,Influenza with pneumonia,Diseases of the respiratory system,7967,106,1.14,0.174163735,0.93,1.38
@@ -381,54 +385,52 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 054.9 ,Herpes simplex without mention...,Infectious and parasitic diseases,10622,141,1.14,0.1346764983,0.96,1.35
 057.8 ,Other specified viral exanthemata,Infectious and parasitic diseases,9575,127,1.14,0.1522329972,0.95,1.36
 078.1 ,Viral warts,Infectious and parasitic diseases,25118,334,1.14,0.0179256699,1.02,1.27
-706.1 ,Other acne,Diseases of the skin and subcutaneous...,15031,200,1.14,0.0670899211,0.99,1.31
-370.49 ,Other keratoconjunctivitis,Diseases of the nervous system,3166,42,1.14,0.4067818293,0.82,1.54
-373.32 ,Contact and allergic dermatitis...,Diseases of the nervous system,2712,36,1.14,0.4203311582,0.8,1.58
-380.10 ,"Infective otitis externa, unspecified",Diseases of the nervous system,74372,982,1.14,0.0001062576,1.07,1.21
+785.2 ,Undiagnosed cardiac murmurs,"Comorbidities, signs, and ill-defined...",13997,184,1.13,0.1053942314,0.97,1.31
 873.40 ,"Open wound of face, unspecified...",Injury and poisoning,39113,512,1.13,0.0101096956,1.03,1.23
 446.1 ,Acute febrile mucocutaneous lymph...,Diseases of the circulatory system,3173,42,1.13,0.4074642869,0.82,1.54
 009.1 ,"Colitis, enteritis, and gastroenteritis...",Infectious and parasitic diseases,68177,891,1.13,0.0007121834,1.05,1.2
 110.5 ,Dermatophytosis of the body,Infectious and parasitic diseases,8527,112,1.13,0.2065273653,0.93,1.36
 550.90 ,"Inguinal hernia, without mention...",Diseases of the digestive system,8852,117,1.13,0.1803044521,0.94,1.36
 696.3 ,Pityriasis rosea,Diseases of the skin and subcutaneous...,5462,72,1.13,0.3122758014,0.88,1.43
-785.2 ,Undiagnosed cardiac murmurs,"Comorbidities, signs, and ill-defined...",13997,184,1.13,0.1053942314,0.97,1.31
+372.2 ,Blepharoconjunctivitis,Diseases of the nervous system,1920,25,1.12,0.5938768061,0.72,1.65
 883.1 ,"Open wound of finger(s), complicated",Injury and poisoning,2304,30,1.12,0.5593275835,0.75,1.6
 478.5 ,Other diseases of vocal cords,Diseases of the respiratory system,16518,215,1.12,0.1093667979,0.97,1.28
 482 ,Other bacterial pneumonia,Diseases of the respiratory system,3975,52,1.12,0.415479759,0.84,1.47
 958.3 ,Posttraumatic wound infection...,Injury and poisoning,7888,103,1.12,0.2478727859,0.91,1.36
-372.2 ,Blepharoconjunctivitis,Diseases of the nervous system,1920,25,1.12,0.5938768061,0.72,1.65
 870.0 ,Laceration of skin of eyelid and...,Injury and poisoning,5179,67,1.11,0.3992693271,0.86,1.41
 461.0 ,Acute maxillary sinusitis,Diseases of the respiratory system,49991,648,1.11,0.0077489316,1.03,1.21
 916.0 ,"Abrasion or friction burn of hip,...",Injury and poisoning,8588,111,1.11,0.2900139085,0.91,1.34
 918.1 ,Superficial injury of cornea,Injury and poisoning,14732,190,1.11,0.1656941345,0.95,1.28
 924.9 ,Contusion of unspecified site,Injury and poisoning,9271,120,1.11,0.2646245524,0.92,1.33
+706.3 ,Seborrhea,Diseases of the skin and subcutaneous...,5230,67,1.1,0.4388801379,0.85,1.4
+372.39 ,Other conjunctivitis,Diseases of the nervous system,8127,104,1.1,0.3512669191,0.89,1.33
+782.4 ,"Jaundice, unspecified, not of...","Comorbidities, signs, and ill-defined...",4287,55,1.1,0.4761321219,0.83,1.43
 380.4 ,Impacted cerumen,Diseases of the nervous system,75849,969,1.1,0.0045697906,1.03,1.17
 913.0 ,"Abrasion or friction burn of elbow,...",Injury and poisoning,2966,38,1.1,0.5487710765,0.78,1.51
 477 ,Allergic rhinitis,Diseases of the respiratory system,40987,526,1.1,0.0304165931,1.01,1.2
 932 ,Foreign body in nose,Injury and poisoning,13038,167,1.1,0.2351886436,0.94,1.28
 052.9 ,Varicella without mention of complication,Infectious and parasitic diseases,129552,1644,1.1,0.000515788,1.04,1.15
 700 ,Corns and callosities,Diseases of the skin and subcutaneous...,2722,35,1.1,0.5319515075,0.77,1.54
-706.3 ,Seborrhea,Diseases of the skin and subcutaneous...,5230,67,1.1,0.4388801379,0.85,1.4
-372.39 ,Other conjunctivitis,Diseases of the nervous system,8127,104,1.1,0.3512669191,0.89,1.33
-782.4 ,"Jaundice, unspecified, not of...","Comorbidities, signs, and ill-defined...",4287,55,1.1,0.4761321219,0.83,1.43
+372.30 ,"Conjunctivitis, unspecified",Diseases of the nervous system,254136,3201,1.09,0.0000042277374,1.05,1.14
 381.81 ,Dysfunction of Eustachian tube,Diseases of the nervous system,4402,56,1.09,0.5267070958,0.82,1.42
 873.41 ,"Open wound of cheek, without mention...",Injury and poisoning,2993,38,1.09,0.6086751442,0.77,1.5
 995.3 ,"Allergy, unspecified, not elsewhere...",Injury and poisoning,12935,164,1.09,0.2854782245,0.93,1.27
 052 ,Chickenpox,Infectious and parasitic diseases,10492,134,1.09,0.2943944725,0.92,1.3
 253.3 ,Pituitary dwarfism,"Endocrine, nutritional and metabolic...",1968,25,1.09,0.6735528534,0.7,1.61
 695.89 ,Other specified erythematous conditions,Diseases of the skin and subcutaneous...,6535,83,1.09,0.4196035611,0.87,1.35
-372.30 ,"Conjunctivitis, unspecified",Diseases of the nervous system,254136,3201,1.09,0.0000042277374,1.05,1.14
 380.22 ,Other acute otitis externa,Diseases of the nervous system,21094,265,1.08,0.2327712315,0.95,1.22
 791.0 ,Proteinuria,"Comorbidities, signs, and ill-defined...",2374,30,1.08,0.6322715073,0.73,1.55
 873.0 ,"Open wound of scalp, without mention...",Injury and poisoning,25650,322,1.08,0.1877103506,0.96,1.2
 883.0 ,"Open wound of finger(s), without...",Injury and poisoning,14974,189,1.08,0.2846373296,0.93,1.25
 693.9 ,Dermatitis due to unspecified...,Diseases of the skin and subcutaneous...,13433,169,1.08,0.3330923473,0.92,1.26
+372.05 ,Acute atopic conjunctivitis,Diseases of the nervous system,6019,75,1.07,0.5479377436,0.84,1.34
 478.1 ,Other diseases of nasal cavity...,Diseases of the respiratory system,62139,776,1.07,0.0596412293,1,1.15
 933.1 ,Foreign body in larynx,Injury and poisoning,6676,83,1.07,0.5678654423,0.85,1.32
 681.9 ,Cellulitis and abscess of unspecified...,Diseases of the skin and subcutaneous...,6407,80,1.07,0.5218218199,0.85,1.33
 112 ,Candidiasis,Infectious and parasitic diseases,2396,30,1.07,0.7027565547,0.72,1.54
 693.8 ,Dermatitis due to other specified...,Diseases of the skin and subcutaneous...,4168,52,1.07,0.6131011174,0.8,1.4
-372.05 ,Acute atopic conjunctivitis,Diseases of the nervous system,6019,75,1.07,0.5479377436,0.84,1.34
+709.9 ,Unspecified disorder of skin and...,Diseases of the skin and subcutaneous...,73217,905,1.06,0.0817160073,0.99,1.14
+747.0 ,Patent ductus arteriosus,Congenital anomalies,2818,35,1.06,0.6612175389,0.74,1.48
 381.00 ,"Acute nonsuppurative otitis media,...",Diseases of the nervous system,34928,432,1.06,0.2271327927,0.96,1.17
 923.20 ,Contusion of hand(s),Injury and poisoning,2664,33,1.06,0.7175932225,0.73,1.49
 933.0 ,Foreign body in pharynx,Injury and poisoning,9340,116,1.06,0.4988518162,0.88,1.28
@@ -436,27 +438,28 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 528.5 ,Diseases of lips,Diseases of the digestive system,5645,70,1.06,0.61926693,0.83,1.35
 074.3 ,"Hand, foot, and mouth disease",Infectious and parasitic diseases,89356,1107,1.06,0.0455087278,1,1.13
 693.0 ,Dermatitis due to drugs and medicines...,Diseases of the skin and subcutaneous...,3226,40,1.06,0.6813712119,0.76,1.45
-709.9 ,Unspecified disorder of skin and...,Diseases of the skin and subcutaneous...,73217,905,1.06,0.0817160073,0.99,1.14
-747.0 ,Patent ductus arteriosus,Congenital anomalies,2818,35,1.06,0.6612175389,0.74,1.48
+726.90 ,Enthesopathy of unspecified site,Diseases of the musculoskeletal...,5402,66,1.05,0.7032995489,0.81,1.33
 388.8 ,Other disorders of ear,Diseases of the nervous system,3193,39,1.05,0.7414802289,0.74,1.43
 465.0 ,Acute laryngopharyngitis,Diseases of the respiratory system,544415,6582,1.05,0.0007144158,1.02,1.08
 945.00 ,Burn of unspecified degree of...,Injury and poisoning,3656,45,1.05,0.6997742425,0.77,1.41
 529.0 ,Glossitis,Diseases of the digestive system,2527,31,1.05,0.7805237182,0.71,1.5
-726.90 ,Enthesopathy of unspecified site,Diseases of the musculoskeletal...,5402,66,1.05,0.7032995489,0.81,1.33
+705.81 ,Dyshidrosis,Diseases of the skin and subcutaneous...,23259,282,1.04,0.5187744331,0.92,1.17
+367.1 ,Myopia,Diseases of the nervous system,183605,2220,1.04,0.0864182531,0.99,1.09
+709.0 ,Dyschromia,Diseases of the skin and subcutaneous...,4345,53,1.04,0.7236048773,0.78,1.37
+729.2 ,"Neuralgia, neuritis, and radiculitis,...",Diseases of the musculoskeletal...,2145,26,1.04,0.840170871,0.68,1.53
 848.9 ,Unspecified site of sprain and...,Injury and poisoning,16903,206,1.04,0.5407065836,0.9,1.2
 034.1 ,Scarlet fever,Infectious and parasitic diseases,2720,33,1.04,0.7885843707,0.71,1.46
 079.9 ,Unspecified viral and chlamydial...,Infectious and parasitic diseases,48141,585,1.04,0.3328339439,0.96,1.13
 691 ,Atopic dermatitis and related...,Diseases of the skin and subcutaneous...,8292,101,1.04,0.6448330641,0.85,1.27
 692.79 ,Other dermatitis due to solar...,Diseases of the skin and subcutaneous...,8849,107,1.04,0.6915905373,0.85,1.25
 315.39 ,Other developmental speech or...,Mental disorders,7440,90,1.04,0.7051955159,0.83,1.28
-705.81 ,Dyshidrosis,Diseases of the skin and subcutaneous...,23259,282,1.04,0.5187744331,0.92,1.17
-367.1 ,Myopia,Diseases of the nervous system,183605,2220,1.04,0.0864182531,0.99,1.09
-709.0 ,Dyschromia,Diseases of the skin and subcutaneous...,4345,53,1.04,0.7236048773,0.78,1.37
-729.2 ,"Neuralgia, neuritis, and radiculitis,...",Diseases of the musculoskeletal...,2145,26,1.04,0.840170871,0.68,1.53
-813.81 ,Closed fracture of unspecified...,Injury and poisoning,2088,25,1.03,0.8385698677,0.66,1.52
-465 ,Acute upper respiratory infections...,Diseases of the respiratory system,197545,2364,1.03,0.2119190968,0.98,1.07
 367.2 ,Astigmatism,Diseases of the nervous system,24494,295,1.03,0.5897603354,0.92,1.16
 374.82 ,Edema of eyelid,Diseases of the nervous system,2078,25,1.03,0.8379097698,0.66,1.53
+813.81 ,Closed fracture of unspecified...,Injury and poisoning,2088,25,1.03,0.8385698677,0.66,1.52
+465 ,Acute upper respiratory infections...,Diseases of the respiratory system,197545,2364,1.03,0.2119190968,0.98,1.07
+370.21 ,Punctate keratitis,Diseases of the nervous system,17123,204,1.02,0.7748529578,0.88,1.17
+373.1 ,Hordeolum and other deep inflammation...,Diseases of the nervous system,20323,241,1.02,0.7928128349,0.89,1.15
+784.5 ,Other speech disturbance,"Comorbidities, signs, and ill-defined...",6066,72,1.02,0.8575053143,0.79,1.28
 461.8 ,Other acute sinusitis,Diseases of the respiratory system,55375,659,1.02,0.6293531326,0.94,1.1
 930.0 ,Corneal foreign body,Injury and poisoning,6071,72,1.02,0.8576131402,0.79,1.28
 989.5 ,Toxic effect of venom,Injury and poisoning,8724,104,1.02,0.8028456903,0.83,1.24
@@ -464,89 +467,86 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 692.89 ,Contact dermatitis and other eczema...,Diseases of the skin and subcutaneous...,25983,309,1.02,0.7489036818,0.91,1.14
 698.8 ,Other specified pruritic conditions,Diseases of the skin and subcutaneous...,9025,108,1.02,0.7683278584,0.84,1.24
 317 ,Mild intellectual disabilities,Mental disorders,2264,27,1.02,0.8450238809,0.67,1.49
-370.21 ,Punctate keratitis,Diseases of the nervous system,17123,204,1.02,0.7748529578,0.88,1.17
-373.1 ,Hordeolum and other deep inflammation...,Diseases of the nervous system,20323,241,1.02,0.7928128349,0.89,1.15
-784.5 ,Other speech disturbance,"Comorbidities, signs, and ill-defined...",6066,72,1.02,0.8575053143,0.79,1.28
-680 ,Carbuncle and furuncle,Diseases of the skin and subcutaneous...,3809,45,1.01,0.9397284169,0.74,1.36
-112.1 ,Candidiasis of vulva and vagina,Infectious and parasitic diseases,3965,47,1.01,0.8823230721,0.74,1.35
-133.0 ,Scabies,Infectious and parasitic diseases,9555,113,1.01,0.8860575303,0.83,1.22
-697.9 ,"Lichen, unspecified",Diseases of the skin and subcutaneous...,1942,23,1.01,0.915645189,0.64,1.53
 368.13 ,Visual discomfort,Diseases of the nervous system,74403,878,1.01,0.7534522989,0.94,1.08
 729.9 ,Other and unspecified disorders...,Diseases of the musculoskeletal...,1862,22,1.01,0.913912756,0.63,1.54
 373.12 ,Hordeolum internum,Diseases of the nervous system,72356,855,1.01,0.7236011696,0.94,1.08
 374.00 ,"Entropion, unspecified",Diseases of the nervous system,4577,54,1.01,0.8905363199,0.76,1.32
 378.10 ,"Exotropia, unspecified",Diseases of the nervous system,5156,61,1.01,0.8966486494,0.77,1.3
+680 ,Carbuncle and furuncle,Diseases of the skin and subcutaneous...,3809,45,1.01,0.9397284169,0.74,1.36
+112.1 ,Candidiasis of vulva and vagina,Infectious and parasitic diseases,3965,47,1.01,0.8823230721,0.74,1.35
+133.0 ,Scabies,Infectious and parasitic diseases,9555,113,1.01,0.8860575303,0.83,1.22
+697.9 ,"Lichen, unspecified",Diseases of the skin and subcutaneous...,1942,23,1.01,0.915645189,0.64,1.53
+706.2 ,Sebaceous cyst,Diseases of the skin and subcutaneous...,2653,31,1,1,0.68,1.42
+765.10 ,"Other preterm infants, unspecified...",Certain conditions originating...,3154,37,1,0.9338866344,0.71,1.39
+372.3 ,Other and unspecified conjunctivitis,Diseases of the nervous system,14966,175,1,0.9695235223,0.86,1.16
 429.9 ,"Heart disease, unspecified",Diseases of the circulatory system,1875,22,1,0.9144187802,0.63,1.53
 917.0 ,Abrasion or friction burn of foot...,Injury and poisoning,3752,44,1,0.939358849,0.73,1.35
 052.8 ,Chickenpox with unspecified complication,Infectious and parasitic diseases,7567,88,1,1,0.8,1.23
 053.9 ,Herpes zoster without mention...,Infectious and parasitic diseases,5710,67,1,0.9507786181,0.78,1.28
 057.9 ,"Viral exanthem, unspecified",Infectious and parasitic diseases,28178,330,1,0.9554085764,0.9,1.12
-706.2 ,Sebaceous cyst,Diseases of the skin and subcutaneous...,2653,31,1,1,0.68,1.42
-765.10 ,"Other preterm infants, unspecified...",Certain conditions originating...,3154,37,1,0.9338866344,0.71,1.39
-372.3 ,Other and unspecified conjunctivitis,Diseases of the nervous system,14966,175,1,0.9695235223,0.86,1.16
-881.00 ,"Open wound of forearm, without...",Injury and poisoning,2600,30,0.99,1,0.66,1.41
 372.10 ,"Chronic conjunctivitis, unspecified",Diseases of the nervous system,182079,2105,0.99,0.6113508751,0.94,1.03
 782.1 ,Rash and other nonspecific skin...,"Comorbidities, signs, and ill-defined...",23782,275,0.99,0.9032288862,0.87,1.12
 373.2 ,Chalazion,Diseases of the nervous system,18671,217,0.99,0.9726805044,0.87,1.14
+881.00 ,"Open wound of forearm, without...",Injury and poisoning,2600,30,0.99,1,0.66,1.41
 892.1 ,Open wound of foot except toe(s)...,Injury and poisoning,1838,21,0.98,1,0.6,1.5
 930.1 ,Foreign body in conjunctival sac,Injury and poisoning,12865,147,0.98,0.8367964059,0.82,1.15
+367.9 ,Unspecified disorder of refraction...,Diseases of the nervous system,143243,1621,0.97,0.1812219095,0.92,1.02
+368.00 ,"Amblyopia, unspecified",Diseases of the nervous system,22905,259,0.97,0.6203519269,0.85,1.09
 910 ,"Superficial injury of face, neck,...",Injury and poisoning,2633,30,0.97,1,0.66,1.4
 470 ,Deviated nasal septum,Diseases of the respiratory system,3184,36,0.97,0.9341524749,0.68,1.34
 680.8 ,Carbuncle and furuncle of other...,Diseases of the skin and subcutaneous...,3247,37,0.97,1,0.68,1.35
-367.9 ,Unspecified disorder of refraction...,Diseases of the nervous system,143243,1621,0.97,0.1812219095,0.92,1.02
-368.00 ,"Amblyopia, unspecified",Diseases of the nervous system,22905,259,0.97,0.6203519269,0.85,1.09
+368.03 ,Refractive amblyopia,Diseases of the nervous system,14557,163,0.96,0.6145570176,0.81,1.12
 891.1 ,"Open wound of knee, leg [except...",Injury and poisoning,2590,29,0.96,0.9269687761,0.64,1.38
 072.9 ,Mumps without mention of complication,Infectious and parasitic diseases,4546,51,0.96,0.8357307385,0.71,1.26
-368.03 ,Refractive amblyopia,Diseases of the nervous system,14557,163,0.96,0.6145570176,0.81,1.12
-695.0 ,Toxic erythema,Diseases of the skin and subcutaneous...,2867,32,0.95,0.8620714924,0.65,1.35
-698.4 ,Dermatitis factitia [artefacta],Diseases of the skin and subcutaneous...,8498,94,0.95,0.6485803463,0.76,1.16
 367.51 ,Paresis of accommodation,Diseases of the nervous system,5405,60,0.95,0.7511673188,0.72,1.22
 372.12 ,Chronic follicular conjunctivitis,Diseases of the nervous system,6200,69,0.95,0.7669746414,0.74,1.21
-943.00 ,Burn of unspecified degree of...,Injury and poisoning,2448,27,0.94,0.8506726494,0.62,1.38
-493.91 ,"Asthma, unspecified type, with...",Diseases of the respiratory system,18289,201,0.94,0.4062263251,0.81,1.08
-034.0 ,Streptococcal sore throat,Infectious and parasitic diseases,8508,94,0.94,0.648731837,0.76,1.16
+695.0 ,Toxic erythema,Diseases of the skin and subcutaneous...,2867,32,0.95,0.8620714924,0.65,1.35
+698.4 ,Dermatitis factitia [artefacta],Diseases of the skin and subcutaneous...,8498,94,0.95,0.6485803463,0.76,1.16
 708 ,Urticaria,Diseases of the skin and subcutaneous...,12159,133,0.94,0.4714623837,0.78,1.11
 367.89 ,Other disorders of refraction...,Diseases of the nervous system,23944,263,0.94,0.3323067293,0.83,1.06
 771.4 ,Omphalitis of the newborn,Certain conditions originating...,11435,126,0.94,0.5409333181,0.78,1.12
-854.00 ,Intracranial injury of other and...,Injury and poisoning,14447,158,0.93,0.4365899404,0.79,1.09
-528.2 ,Oral aphthae,Diseases of the digestive system,33204,363,0.93,0.2062382414,0.84,1.04
+943.00 ,Burn of unspecified degree of...,Injury and poisoning,2448,27,0.94,0.8506726494,0.62,1.38
+493.91 ,"Asthma, unspecified type, with...",Diseases of the respiratory system,18289,201,0.94,0.4062263251,0.81,1.08
+034.0 ,Streptococcal sore throat,Infectious and parasitic diseases,8508,94,0.94,0.648731837,0.76,1.16
 705.83 ,Hidradenitis,Diseases of the skin and subcutaneous...,3478,38,0.93,0.7519272089,0.66,1.29
 367.0 ,Hypermetropia,Diseases of the nervous system,32041,349,0.93,0.1893697189,0.83,1.03
 372.13 ,Vernal conjunctivitis,Diseases of the nervous system,7363,80,0.93,0.5499678846,0.74,1.16
-077.1 ,Epidemic keratoconjunctivitis,Infectious and parasitic diseases,50565,546,0.92,0.0614331534,0.84,1
+854.00 ,Intracranial injury of other and...,Injury and poisoning,14447,158,0.93,0.4365899404,0.79,1.09
+528.2 ,Oral aphthae,Diseases of the digestive system,33204,363,0.93,0.2062382414,0.84,1.04
 367.20 ,"Astigmatism, unspecified",Diseases of the nervous system,44978,487,0.92,0.0868173434,0.84,1.01
+077.1 ,Epidemic keratoconjunctivitis,Infectious and parasitic diseases,50565,546,0.92,0.0614331534,0.84,1
 812.20 ,Closed fracture of unspecified...,Injury and poisoning,2441,26,0.91,0.706378963,0.59,1.34
-480.9 ,"Viral pneumonia, unspecified",Diseases of the respiratory system,5692,60,0.9,0.4584336918,0.69,1.16
 708.1 ,Idiopathic urticaria,Diseases of the skin and subcutaneous...,6163,65,0.9,0.4400756788,0.69,1.15
 709.8 ,Other specified disorders of skin,Diseases of the skin and subcutaneous...,17277,183,0.9,0.1878882442,0.78,1.05
 774.6 ,Unspecified fetal and neonatal...,Certain conditions originating...,20530,217,0.9,0.1413464012,0.79,1.03
+480.9 ,"Viral pneumonia, unspecified",Diseases of the respiratory system,5692,60,0.9,0.4584336918,0.69,1.16
+372.8 ,Other disorders of conjunctiva,Diseases of the nervous system,2402,25,0.89,0.6346908957,0.57,1.32
 381.4 ,"Nonsuppurative otitis media, not...",Diseases of the nervous system,17306,180,0.89,0.1176692092,0.76,1.03
 464.11 ,Acute tracheitis with obstruction,Diseases of the respiratory system,21368,222,0.89,0.0779959299,0.77,1.01
 911.4 ,"Insect bite, nonvenomous of trunk,...",Injury and poisoning,4236,44,0.89,0.4741035336,0.64,1.19
 681.02 ,Onychia and paronychia of finger,Diseases of the skin and subcutaneous...,2874,30,0.89,0.6020578067,0.6,1.28
 696.5 ,Other and unspecified pityriasis,Diseases of the skin and subcutaneous...,11965,125,0.89,0.2157055315,0.74,1.06
-372.8 ,Other disorders of conjunctiva,Diseases of the nervous system,2402,25,0.89,0.6346908957,0.57,1.32
-008.49 ,Intestinal infection due to other...,Infectious and parasitic diseases,2530,26,0.88,0.5784460491,0.57,1.29
 367.8 ,Other disorders of refraction...,Diseases of the nervous system,3692,38,0.88,0.4897433,0.62,1.21
 782.2 ,"Localized superficial swelling,...","Comorbidities, signs, and ill-defined...",2519,26,0.88,0.6418019281,0.57,1.3
 379.91 ,Pain in or around eye,Diseases of the nervous system,6192,64,0.88,0.3434263165,0.68,1.13
+008.49 ,Intestinal infection due to other...,Infectious and parasitic diseases,2530,26,0.88,0.5784460491,0.57,1.29
 883 ,Open wound of finger(s),Injury and poisoning,2266,23,0.87,0.5576188857,0.55,1.31
 910.4 ,"Insect bite, nonvenomous of face,...",Injury and poisoning,3029,31,0.87,0.5526893346,0.59,1.24
 611.9 ,Unspecified breast disorder,Diseases of the genitourinary...,3048,31,0.87,0.4992982522,0.59,1.24
 683 ,Acute lymphadenitis,Diseases of the skin and subcutaneous...,7189,73,0.87,0.247793514,0.68,1.09
 771.7 ,Neonatal Candida infection,Certain conditions originating...,4194,42,0.86,0.3493765172,0.62,1.16
+367.81 ,Transient refractive change,Diseases of the nervous system,4109,41,0.85,0.3444091642,0.61,1.16
 873.4 ,"Facial laceration, without mention...",Injury and poisoning,14980,150,0.85,0.056129706,0.72,1
 289.3 ,"Lymphadenitis, unspecified, except...",Diseases of the blood and blood-forming...,6016,60,0.85,0.2294437888,0.65,1.1
-367.81 ,Transient refractive change,Diseases of the nervous system,4109,41,0.85,0.3444091642,0.61,1.16
+372.02 ,Acute follicular conjunctivitis,Diseases of the nervous system,14894,147,0.84,0.0385254375,0.71,0.99
 381 ,Nonsuppurative otitis media and...,Diseases of the nervous system,8219,81,0.84,0.1352525706,0.67,1.05
 464.2 ,Acute larygotracheitis,Diseases of the respiratory system,20501,201,0.84,0.0107320911,0.72,0.96
 478.0 ,Hypertrophy of nasal turbinates,Diseases of the respiratory system,8790,87,0.84,0.1228261251,0.68,1.04
 535.51 ,"Unspecified gastritis and gastroduodenitis,...",Diseases of the digestive system,3034,30,0.84,0.3978523343,0.57,1.21
-372.02 ,Acute follicular conjunctivitis,Diseases of the nervous system,14894,147,0.84,0.0385254375,0.71,0.99
-382.3 ,Unspecified chronic suppurative...,Diseases of the nervous system,2463,24,0.83,0.4516369467,0.53,1.24
 367.21 ,Regular astigmatism,Diseases of the nervous system,14451,140,0.83,0.0240697206,0.69,0.98
-519.8 ,Other diseases of respiratory...,Diseases of the respiratory system,5299,51,0.82,0.1783523034,0.61,1.08
+382.3 ,Unspecified chronic suppurative...,Diseases of the nervous system,2463,24,0.83,0.4516369467,0.53,1.24
 367.5 ,Disorders of accommodation,Diseases of the nervous system,2287,22,0.82,0.4347748784,0.51,1.25
+519.8 ,Other diseases of respiratory...,Diseases of the respiratory system,5299,51,0.82,0.1783523034,0.61,1.08
 478.8 ,Upper respiratory tract hypersensitivity...,Diseases of the respiratory system,10262,98,0.81,0.0425589542,0.66,0.99
 266.9 ,Unspecified vitamin B deficiency,"Endocrine, nutritional and metabolic...",2624,25,0.81,0.3622003927,0.53,1.2
 692.4 ,Contact dermatitis and other eczema...,Diseases of the skin and subcutaneous...,22790,215,0.8,0.0012367711,0.7,0.92
@@ -557,10 +557,10 @@ disease_2,disease_name,category,count,co_occurrence,odds_ratio,p_value,95_ci_low
 472 ,Chronic pharyngitis and nasopharyngitis,Diseases of the respiratory system,11977,102,0.73,0.0008587757,0.59,0.88
 360.89 ,Other disorders of globe,Diseases of the nervous system,2729,23,0.72,0.1286275973,0.45,1.08
 367.31 ,Anisometropia,Diseases of the nervous system,1899,16,0.72,0.2378641863,0.41,1.17
-519 ,Other diseases of respiratory...,Diseases of the respiratory system,2901,24,0.71,0.0993481152,0.45,1.05
 379.99 ,Other ill-defined disorders of...,Diseases of the nervous system,5060,42,0.71,0.0255461659,0.51,0.96
-473 ,Chronic sinusitis,Diseases of the respiratory system,7885,64,0.69,0.0022778488,0.53,0.88
+519 ,Other diseases of respiratory...,Diseases of the respiratory system,2901,24,0.71,0.0993481152,0.45,1.05
 786.09 ,Other respiratory abnormalities,"Comorbidities, signs, and ill-defined...",5580,45,0.69,0.0103471869,0.5,0.92
+473 ,Chronic sinusitis,Diseases of the respiratory system,7885,64,0.69,0.0022778488,0.53,0.88
 492 ,Emphysema,Diseases of the respiratory system,4230,34,0.68,0.0260221334,0.47,0.96
 692.70 ,Unspecified dermatitis due to...,Diseases of the skin and subcutaneous...,2674,20,0.64,0.0466338186,0.39,0.99
 372.03 ,Other mucopurulent conjunctivitis,Diseases of the nervous system,2568,19,0.63,0.0426007512,0.38,0.99

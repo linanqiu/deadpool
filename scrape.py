@@ -53,11 +53,14 @@ def scrape_page(map_select, icd9_select):
     entry = dict(zip(header, values))
     entries.append(entry)
 
-  with open('./scraped_data/%s_%s.csv' % (map_select, icd9_select), 'wb') as output_file:
-    dict_writer = csv.DictWriter(output_file, header)
-    dict_writer.writeheader()
-    dict_writer.writerows(entries)
-    logger.info('Written ./scraped_data/%s_%s.csv' % (map_select, icd9_select))
+  if len(rows) > 0:
+    with open('./scraped_data/%s_%s.csv' % (map_select, icd9_select), 'wb') as output_file:
+      dict_writer = csv.DictWriter(output_file, header)
+      dict_writer.writeheader()
+      dict_writer.writerows(entries)
+      logger.info('Written ./scraped_data/%s_%s.csv' % (map_select, icd9_select))
+  else:
+    logger.info('Row empty for %s %s' % (map_select, icd9_select))
 
 
 for map_select, icd9_select in itertools.product(maps, icd9s):
